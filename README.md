@@ -1,4 +1,4 @@
-# Fetcher
+# Fetchr
 A program to get system info
 
 ## Important Note:
