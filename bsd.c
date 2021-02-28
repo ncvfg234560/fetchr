@@ -22,12 +22,10 @@ FILE *temp;
 int main()
 {
 	system("whoami >> tmp");
-	system("cat /etc/hostname >> tmp");
 	system("uname -s >> tmp");
 	system("uname -r >> tmp");
 	temp = fopen("tmp", "r");
 	fgets(user, 20, temp);
-	fgets(host, 20, temp);
 	fgets(os, 10, temp);
 	fgets(kernel, 20, temp);
 	fclose(temp);
@@ -36,7 +34,7 @@ int main()
 	if (strcmp(os, "FreeBSD\n") == 0)
 	{
 		printf("/\\,-'''''-,/\\		User: %s", user);
-		printf("\\_)       (_/		Host: %s", host);
+		printf("\\_)       (_/		\n");
 		printf("|           |		Kernel: %s", kernel);
 		printf("|           |		\n");
 		printf(" ;         ;		\n");
