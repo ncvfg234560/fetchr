@@ -4,7 +4,7 @@
  *      2021 Fermi Technology        *
  *				     *
  *  Bryce Vandegrift, Owen Thamban,  *
- *   	 and Ethan Krieger	     *
+ *   	  and Ethan Krieger	     *
  *				     *
  * GPL V3 2021			     *
  ************************************/
