@@ -20,19 +20,19 @@ int main()
 	fclose(temp);
 	system("rm tmp");
 
-	if (strcmp(os, "Darwin\n") == 0)
-	{
+	//if (strcmp(os, "Darwin\n") == 0)
+	//{
 		printf("         (/     	User: %s", user);
 		printf("    .---__--.   	\n");
 		printf("   /         \\  	Kernel: %s", kernel);
 		printf("  |         /   	\n");
 		printf("  |         \\_  	\n");
 		printf("   \\         /  	\n");
-		printf("    \\`._.-._.\\`   	\n");
-	} else 
-	{
+		printf("    \\._.-._./`   	\n");
+	//} else 
+	//{
 		printf("Sorry your OS is not supported. Please open an issue at https://github.com/ncvfg234560/fetchr.\n");
-	}
+	//}
 
 	return 0;
 }
