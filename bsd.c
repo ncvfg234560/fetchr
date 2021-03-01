@@ -39,6 +39,14 @@ int main()
 		printf("|           |		\n");
 		printf(" ;         ;		\n");
 		printf("  '-_____-'		\n");
+	} else if(strcmp(os, "OpenBSD\n") == 0) { 
+		printf("       _____      	User: %s", user);
+		printf("     \-     -/    	\n");
+		printf("  \_/         \   	Kernel: %s", kernel);
+		printf("  |        O O |  	\n");
+		printf("  |_  <   )  3 )  	\n");
+		printf("  / \         /   	\n");
+		printf("     /-_____-\    	\n");
 	} else
 	{
 		printf("Sorry your OS is not supported. Please open a issue at https://github.com/ncvfg234560/fetchr. :(\n");
