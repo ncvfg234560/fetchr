@@ -33,12 +33,12 @@ int main()
 
 	if (strcmp(os, "FreeBSD\n") == 0)
 	{
-		printf("/\\\\,-'''''-,/\\\\		User: %s", user);
-		printf("\\\\_)       (_/		\n");
-		printf("|           |		Kernel: %s", kernel);
-		printf("|           |		\n");
-		printf(" ;         ;		\n");
-		printf("  '-_____-'		\n");
+		printf("  /\\,-'''''-,/\\ 	User: %s", user);
+		printf("  \\_)       (_/	\n");
+		printf("  |           |		Kernel: %s", kernel);
+		printf("  |           |		\n");
+		printf("   ;         ;		\n");
+		printf("    '-_____-'		\n");
 	} else if(strcmp(os, "OpenBSD\n") == 0) { 
 		printf("       _____      	User: %s", user);
 		printf("     \\-     -/    	\n");
