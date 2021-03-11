@@ -49,7 +49,7 @@ int main()
 		printf("     /-_____-\\    	\n");
 	} else
 	{
-		printf("Sorry your OS is not supported. Please open a issue at https://github.com/ncvfg234560/fetchr. :(\n");
+		printf("Sorry your OS is not supported. Please open an issue at https://github.com/ncvfg234560/fetchr. :(\n");
 	}
 
 	return 0;
